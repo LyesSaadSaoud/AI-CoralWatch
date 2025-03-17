@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="description" content="Gated Fusion Network with Reprogramming Transformer Refiners for Adaptive Underwater Image Dehazing">
+  <meta name="description" content="AI-Powered Coral Watch: Pattern Recognition for Automated Bleaching Detection">
   <meta property="og:title" content="Gated Fusion Network for Underwater Image Enhancement"/>
-  <meta property="og:description" content="GFN integrates advanced feature fusion and context-aware adaptive transformations for superior underwater imaging."/>
+  <meta property="og:description" content="AI-Powered Coral Watch: Pattern Recognition for Automated Bleaching Detection."/>
   <meta property="og:image" content="static/images/GFN (1).png" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Gated Fusion Network with Reprogramming Transformer Refiners for Adaptive Underwater Image Dehazing</title>
+  <title>AI-Powered Coral Watch: Pattern Recognition for Automated Bleaching Detection</title>
   <link rel="icon" type="image/x-icon" href="static/images/78357759.jpg">
 
   <!-- Google Fonts -->
@@ -76,7 +76,7 @@
 <section class="hero">
   <div class="hero-body">
     <div class="container is-max-desktop has-text-centered">
-      <h1 class="title is-1">Gated Fusion Network with Reprogramming Transformer Refiners for Adaptive Underwater Image Dehazing</h1>
+      <h1 class="title is-1">AI-Powered Coral Watch: Pattern Recognition for Automated Bleaching Detection</h1>
       <p class="is-size-5">Lyes Saad Saoud and Irfan Hussain</p>
       <p class="is-size-5">Khalifa University of Science and Technology, UAE | Preprint 2025</p>
 
@@ -96,12 +96,12 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body has-text-centered">
-      <img src="static/images/GFN (1).png" alt="GFN system illustration" style="width: 70%; border-radius: 10px;">
-      <h2 class="subtitle">Architecture of the proposed underwater image dehazing model. The Gated Fusion Network (GFN) integrates a Swin
- Transformer for multi-scale feature extraction and confidence map generation. Reprogramming Adaptive Transformation Units
- (RATUs) apply targeted enhancements, including white balancing, gamma correction, and histogram equalization, based on the
- confidence maps. The gated fusion mechanism selectively combines these enhanced features to produce a refined output with
- improved contrast, color balance, and visibility across diverse underwater conditions.</h2>
+      <img src="static/images/main_figure.png" alt="GFN system illustration" style="width: 70%; border-radius: 10px;">
+      <h2 class="subtitle">Comparison of manual and AI-powered coral bleaching detection.
+    The left panel illustrates the traditional diver-based Coral Watch methodology, where divers manually assess coral bleaching by visually comparing coral colors to a reference chart and recording observations on waterproof slates.
+    The right panel presents the proposed AI-driven automated framework, integrating a Remotely Operated Vehicle (ROV) equipped with deep learning and vision-language models for large-scale, objective coral monitoring. The system utilizes YOLOv12 for coral detection, SAM, for instance, segmentation, and DehazeFormer for underwater image enhancement, addressing visibility challenges in real-world conditions. 
+    To enable automated bleaching classification, the pipeline leverages GPT-4o as a Generative AI model, which interprets segmented coral regions, assigns Coral Watch classifications based on dominant colors and provides structured conservation insights. The model is validated using a dual dataset approach, combining synthetic and real-world underwater images from both controlled marine pools and open ocean environments.
+    Key advantages of this AI-powered system include real-time depth estimation, cloud-based AI processing, enhanced classification accuracy, and scalability compared to traditional methods. By integrating pattern recognition, deep learning, and generative AI, the proposed approach offers a more efficient, consistent, and scalable alternative to diver-based coral bleaching assessments, significantly improving monitoring efforts for marine conservation..</h2>
     </div>
   </div>
 </section>
@@ -202,10 +202,10 @@
         <p>
         <div class="content has-text-justified">
           <p>
-        Underwater image quality degradation due to light absorption, scattering, and low illumination significantly hinders visual clarity and usability in critical applications such as marine research, robotics, and environmental monitoring. Standard enhancement techniques often struggle to generalize across varying underwater conditions, limiting their effectiveness in real-world applications. To overcome these challenges, we propose the Gated Fusion Network (GFN), a novel deep learning framework that integrates a Swin Transformer backbone with Reprogramming Adaptive Transformation Units (RATUs) to perform adaptive underwater image enhancement.
-GFN utilizes the Swin Transformer to extract multi-scale contextual features and generate confidence maps that guide RATUs in applying targeted image corrections, including white balancing, gamma correction, and histogram equalization. This adaptive processing ensures that enhancements are applied selectively based on local scene characteristics, effectively restoring color balance, contrast, and fine details. A gated fusion mechanism then selectively integrates these enhanced outputs, optimizing the overall visual quality while reducing noise and artifacts.
-Extensive evaluations on real-world underwater datasets demonstrate that GFN consistently outperforms existing approaches. On the EUVP dataset, GFN achieves an average PSNR improvement of 3.1 dB over WaterNet, with similar gains observed on ocean\_ex and LSUI400. These results establish a new benchmark for underwater image enhancement, offering a robust and adaptable solution for applications that require high-quality underwater imagery.
-For interactive visualizations, animations, source code, and access to the preprint, visit: https://lyessaadsaoud.github.io/GFN/.
+        Coral bleaching detection is essential for marine conservation, traditionally relying on diver-based surveys using Coral Watch color charts. However, this manual process is subjective, labor-intensive, and lacks scalability. In this work, we propose an AI-powered, multi-stage framework that automates Coral Watch-based bleaching detection using deep learning, generative AI, and pattern recognition techniques.
+Our approach integrates YOLOv12 for coral detection, the Segment Anything Model (SAM) for instance segmentation, and a GPT-based vision-language model for automated color classification aligned with Coral Watch standards. To address underwater visibility challenges, we introduce a dual dataset approach, leveraging both synthetic and real-world underwater images. We trained and benchmarked state-of-the-art dehazing models, including DehazeFormer, RAUNE-Net, WaterNet, and UT-UIE, and demonstrated their effectiveness in improving coral visibility and detection accuracy.
+Furthermore, we employ Generative AI (GenAI) to enhance the automated assessment process by interpreting segmented coral regions, classifying their health status based on color distributions, and providing conservation recommendations in natural language. The impact of dehazing on coral detection was quantified using a fine-tuned YOLOv12 model, revealing significant improvements in mean Average Precision (mAP) and recall scores across different visibility conditions.
+The system was validated on datasets collected in controlled marine pools and open ocean environments, confirming its robustness for real-world deployment. Additionally, we present a comparative evaluation between AI-driven classification and manual expert assessments, demonstrating a near-perfect alignment. Our results highlight the effectiveness of deep learning, generative AI, and image processing techniques in automating large-scale coral bleaching detection, offering a scalable, objective, and efficient alternative to traditional diver-based monitoring.
         </div>
       </div>
     </div>
@@ -215,7 +215,7 @@ For interactive visualizations, animations, source code, and access to the prepr
   <div class="container is-max-desktop">
     <div class="hero-body">
       <div style="position: relative; max-width: 100%; text-align: center;">
-        <img src="static/images/RATU (1).png" alt="GFN system illustration" style="width: 70%; height: auto; border-radius: 10px;">
+        <img src="static/images/Proposed_framework.png" alt="GFN system illustration" style="width: 70%; height: auto; border-radius: 10px;">
       </div>
       <h2 class="subtitle has-text-centered">
         The proposed Reprogramming Adaptive Transformation Units (RATUs) for context-aware enhancement. The yellow
@@ -322,10 +322,10 @@ For interactive visualizations, animations, source code, and access to the prepr
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
     <pre><code>
-@article{GFN2024,
+@article{AI-CoralWatch,
   author = {Saad Saoud, Lyes et al.},
-  title = {GFN: Gated Fusion Network for Underwater Image Enhancement},
-  year = {2024},
+  title = {AI-Powered Coral Watch: Pattern Recognition for Automated Bleaching Detection},
+  year = {2025},
   publisher = {Preprint},
   doi = {......},
   url = {https://arxiv.org/...}}
@@ -337,7 +337,7 @@ For interactive visualizations, animations, source code, and access to the prepr
   
 <footer class="footer">
   <div class="container">
-    <p>This page provides supplementary materials for "<strong>GFN: Gated Fusion Network for Underwater Image Enhancement</strong>." Access the paper, dataset, and code repository for more details.</p>
+    <p>This page provides supplementary materials for "<strong>AI-Powered Coral Watch: Pattern Recognition for Automated Bleaching Detection</strong>." Access the paper, dataset, and code repository for more details.</p>
   </div>
 </footer>
 
